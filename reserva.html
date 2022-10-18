@@ -1,0 +1,80 @@
+<!DOCYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Pizzaria Buonna</title>
+	<link rel="stylesheet" type="text/css" href="css/folhadeestilo.css">
+</head>
+
+<body>
+	<div class="container-principal">
+		<header>
+			<div class="logo">
+				<a href="index.html">
+					<img src="imagem/pizza.png" alt="logo site">
+				</a>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Cardápio</a></li>
+					<li><a href="sobre.html">Quem Somos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li><a href="reserva.html">Faça seu pedido</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+
+		<section id="txt-reserva">
+			<form name="meu_form" id="meu_form">
+				<p class="pizza">
+					<label for="pizza">Pizza:</label><br>
+					<select class="comboPizza">
+						<option selected disabled>Selecione sua Pizza</option>
+						<option>Calabresa</option>
+						<option>Italiana</option>
+						<option>Presunto</option>
+						<option>4 Queijos</option>
+					</select>
+				</p>
+				<p class="bebida">
+					<label for="bebida">Bebida:</label><br>
+					<select class="comboBebida">
+						<option value="" selected disabled>Selecione sua Bebida</option>
+						<option value="1" >Coca-Cola 1,5L</option>
+						<option value="2">Coca-Cola 2L</option>
+						<option value="3">Coca-Cola Lata</option>
+						<option value="4">Fanta 2L</option>
+						<option value="5">Antártica 2L</option>
+						<option value="6">Sprite 2L</option>
+					</select>
+				</p>
+				<p class="fone">
+					<label for="fone">Telefone:</label><br>
+					<input type="phone" id="foneid" placeholder="(xx)xxxx-xxxx" name="fone" />
+				</p>
+				<p class="email">
+					<label for="email">Email:</label><br>
+					<input type="email" id="emailid" placeholder="fulano@mail.com" required="required" name="email" />
+				</p>
+				<p class="observ">
+					<label for="observ">Observações:</label><br>
+					<textarea placeholder="mensagem" required="required"></textarea>
+				</p>
+				<button type="submit" form="meu_form">Enviar</button>
+			</form>
+			
+		</section>
+
+		<footer>
+			<div class="footer-text-contato">
+				<h4>Site desenvolvido por André Luiz Wanderley de Melo</h4>
+				<p>Disciplina de Desenvolvimento WEB - <strong>UniFBV Wyden</strong></p>
+			</div>
+
+		</footer> 
+
+	</div>
+</body>
+</html>

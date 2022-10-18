@@ -1,0 +1,163 @@
+<!DOCYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Pizzaria Buonna</title>
+	<link rel="stylesheet" type="text/css" href="css/folhadeestilo.css">
+</head>
+
+<body>
+	<div class="container-principal">
+		<header>
+			<div class="logo">
+				<a href="index.html">
+					<img src="imagem/pizza.png" alt="logo site">
+				</a>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Cardápio</a></li>
+					<li><a href="sobre.html">Quem somos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li><a href="reserva.html">Faça seu pedido</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="openModalC" class="modalDialog">
+			<div>
+				<a href="#close" class="close">X</a>
+				<img src="imagem/calabresa1.png" alt="pizza calabresa">
+				<h1>Pizza de Calabresa</h1>
+				<p>Molho, Mussarela, Calabresa, Cebola, Azeitona e Orégano</p>
+			</div>
+		</div>
+
+		<div id="openModalI" class="modalDialog">
+			<div>
+				<a href="#close" class="close">X</a>
+				<img src="imagem/italiana1.png" alt="pizza italiana">
+				<h1>Pizza Italiana</h1>
+				<p>Molho, Mussarela, Catupiry, Salaminho, Azeitona e Orégano</p>
+			</div>
+		</div>
+
+		<div id="openModalP" class="modalDialog">
+			<div>
+				<a href="#close" class="close">X</a>
+				<img src="imagem/presunto1.png" alt="pizza calabresa">
+				<h1>Pizza de Presunto</h1>
+				<p>Molho, Mussarela, Presunto, Tomate, Azeitona e Orégano</p>
+			</div>
+		</div>
+
+		<div id="openModalQ" class="modalDialog">
+			<div>
+				<a href="#close" class="close">X</a>
+				<img src="imagem/queijo1.png" alt="pizza calabresa">
+				<h1>Pizza de 4 Queijos</h1>
+				<p>Molho, Mussarela, Provolone, Parmesão, Gorgonzola, Azeitona e Orégano</p>
+			</div>
+		</div>
+			
+		<section id="titulo-galeria-pizza">
+			<p>
+			<img src="./imagem/loading_pizza.gif" alt="gif-pizza">
+			PIZZAS
+			<img src="./imagem/loading_pizza.gif" alt="gif-pizza">
+			</p>
+		</section>
+		
+			<div class="pizzas-wrapper">
+			<div class="pizzas">
+				<button class="seta-esquerda-pizza controle-pizza" aria-label="Imagem anterior">◄</button>
+				<button class="seta-direita-pizza controle-pizza" aria-label="Proxima imagem">►</button>
+				<div class="pizza escolhido-pizza">
+					<img src="./imagem/calabresa1.png" alt="Pizza Calabresa">
+					<p>Pizza de Calabresa</p>
+					<ul>
+						<li>Valor<br>R$ 49,00</li>
+						<li><a href="#openModalC">Info</a></li>
+					</ul>
+				</div>
+				<div class="pizza escolhido-pizza">
+					<img src="./imagem/italiana1.png" alt="Pizza Italiana">
+					<p>Pizza Italiana</p>
+					<ul>
+						<li>Valor<br>R$ 59,99</li>
+						<li><a href="#openModalI">Info</a></li>
+					</ul>		
+				</div>
+				<div class="pizza escolhido-pizza">
+					<img src="./imagem/presunto1.png" alt="Pizza de Presunto">
+					<p>Pizza de Presunto</p>
+					<ul>
+						<li>Valor<br>R$ 51,00</li>
+						<li><a href="#openModalP">Info</a></li>
+					</ul>
+				</div>
+				<div class="pizza escolhido-pizza">
+					<img src="./imagem/queijo1.png" alt="Pizza de 4 Queijos">
+					<p>Pizza de 4 Queijos</p>
+					<ul>
+						<li>Valor<br>R$ 52,00</li>
+						<li><a href="#openModalQ">Info</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<section id="titulo-galeria-drink">
+			<p>
+			<img src="./imagem/loading_refri.gif" alt="gif-refri">
+			BEBIDAS
+			<img src="./imagem/loading_refri.gif" alt="gif-refri">
+			</p>
+		</section>
+
+		<div class="bebidas-wrapper">
+			<div class="bebidas">
+				<button class="seta-esquerda-drink controle-drink" aria-label="Imagem anterior">◄</button>
+				<button class="seta-direita-drink controle-drink" aria-label="Proxima imagem">►</button>
+				<div class="bebida escolhido-drink">
+					<img src="./imagem/cocacola15l.png" alt="Coca-Cola 1,5l">
+					<p>Coca-Cola 1,5L</p>
+				</div>
+				<div class="bebida escolhido-drink">
+					<img src="./imagem/cocacola2l.png" alt="Coca-Cola 2l">
+					<p>Coca-Cola 2L</p>		
+				</div>
+				<div class="bebida escolhido-drink">
+					<img src="./imagem/cocacolalata.png" alt="Coca-Cola lata">
+					<p>Coca-Cola Lata</p>
+				</div>
+				<div class="bebida escolhido-drink">
+					<img src="./imagem/fanta2l.png" alt="Fanta 2l">
+					<p>Fanta 2L</p>
+				</div>
+				<div class="bebida escolhido-drink">
+					<img src="./imagem/antartica2l.png" alt="Antartica 2l">
+					<p>Antartica 2L</p>
+				</div>
+				<div class="bebida escolhido-drink">
+					<img src="./imagem/sprite2l.png" alt="Sprite 2l">
+					<p>Sprite 2L</p>
+				</div>
+			</div>
+		</div>
+
+		
+		<footer>
+			<div class="footer-text">
+				<h4>Site desenvolvido por André Luiz Wanderley de Melo</h4>
+				<p>Disciplina de Desenvolvimento WEB - <strong>UniFBV Wyden</strong></p>
+			</div>
+
+		</footer> 
+
+	</div>
+	<script type="text/javascript" src="./js/cardapio.js"></script>
+	<noscript>You need to install Javascript to see the full page.</noscript>
+</body>
+</html>
